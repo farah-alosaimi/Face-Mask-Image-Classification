@@ -8,11 +8,15 @@
 # Discovering Directory and Paths
 After declaring the paths of the dataset,the directory contains three main folders already divided into three chunks to train, test, and validate, each of which contains two directory "withmask" or "withoutmask". Dataset -train -Withmask -Withoutmask -test -Withmask -Withoutmask -validation -Withmask -Withoutmask The dataset contains 11792 pictures and labels. Using the "OS" library, I found out how many images have masks and how many don't.
 
+#Plotting Images
+To plot the images, i used the imread() function from CV library.
+
+<img width="455" alt="image" src="https://user-images.githubusercontent.com/87046282/210136673-ac122fb9-4ca6-46fd-a225-b2a7d723fcd0.png">
+
 # Image Processing
 The image processing phase now starts, using the ImageDataGenerator library. With the ImageDataGenerator() function we can rescale-multiply- the data by 1/255 ,rotate the pictures by 40 degrees ,shift the height and width by 0.2 , shear intensity is 0.2 , zoom ranges is 0.2, and randomly flip the pictures.
 
-![alt text](http://url/to/img.png)
+
 
 After applying image processing to all the images, executed by the flow_from_directory() function, which takes the path to a directory & generates augmented data. This function will resize the images to 95 x 95, batch size is set to 15, colour mode of the images goes to RGB, which means the pictures stay colourful, class mode is categorical, and we need to shuffle the data in order to avoid pattern cheating.
 
-<img width="455" alt="image" src="https://user-images.githubusercontent.com/87046282/210136673-ac122fb9-4ca6-46fd-a225-b2a7d723fcd0.png">
