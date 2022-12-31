@@ -16,6 +16,7 @@ To plot the images, i used the imread() function from CV library.
 # Image Processing
 The image processing phase now starts, using the ImageDataGenerator library. With the ImageDataGenerator() function we can rescale-multiply- the data by 1/255 ,rotate the pictures by 40 degrees ,shift the height and width by 0.2 , shear intensity is 0.2 , zoom ranges is 0.2, and randomly flip the pictures.
 
+<img width="254" alt="image" src="https://user-images.githubusercontent.com/87046282/210136736-3d594150-5902-4225-87cc-8041a0cc6c8f.png">
 
 
 After applying image processing to all the images, executed by the flow_from_directory() function, which takes the path to a directory & generates augmented data. This function will resize the images to 95 x 95, batch size is set to 15, colour mode of the images goes to RGB, which means the pictures stay colourful, class mode is categorical, and we need to shuffle the data in order to avoid pattern cheating.
