@@ -28,6 +28,7 @@ After applying image processing to all the images, executed by the flow_from_dir
 #The model
 The structure of the convolutional neural network model
 
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/87046282/210136862-e5c3489a-1502-41bf-9741-4f1eac0050bf.png">
 
 #Train & Test
 
