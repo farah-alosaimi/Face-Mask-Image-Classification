@@ -8,7 +8,7 @@
 # Discovering Directory and Paths
 After declaring the paths of the dataset,the directory contains three main folders already divided into three chunks to train, test, and validate, each of which contains two directory "withmask" or "withoutmask". Dataset -train -Withmask -Withoutmask -test -Withmask -Withoutmask -validation -Withmask -Withoutmask The dataset contains 11792 pictures and labels. Using the "OS" library, I found out how many images have masks and how many don't.
 
-#Plotting Images
+# Plotting Images
 To plot the images, i used the imread() function from CV library.
 
 <img width="455" alt="image" src="https://user-images.githubusercontent.com/87046282/210136673-ac122fb9-4ca6-46fd-a225-b2a7d723fcd0.png">
@@ -25,17 +25,17 @@ After applying image processing to all the images, executed by the flow_from_dir
 
 
 
-#The model
+# The model
 The structure of the convolutional neural network model
 
 <img width="450" alt="image" src="https://user-images.githubusercontent.com/87046282/210136862-e5c3489a-1502-41bf-9741-4f1eac0050bf.png">
 
-#Train & Test
+# Train & Test
 
 <img width="417" alt="image" src="https://user-images.githubusercontent.com/87046282/210136887-f0e1832e-d089-465d-9bf5-ef87b7cc679d.png">
 
 
-#Evalution
+# Evalution
 classification report showing the main classification metrics/ accuracy .. ect
 
 <img width="401" alt="image" src="https://user-images.githubusercontent.com/87046282/210136910-f162a97d-4ba7-49a0-893d-8ff3e81080b5.png">
