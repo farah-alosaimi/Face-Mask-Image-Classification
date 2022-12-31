@@ -32,11 +32,10 @@ The structure of the convolutional neural network model
 
 #Train & Test
 
+<img width="417" alt="image" src="https://user-images.githubusercontent.com/87046282/210136887-f0e1832e-d089-465d-9bf5-ef87b7cc679d.png">
 
 
 #Evalution
 classification report showing the main classification metrics/ accuracy .. ect
 
 
-
-#
