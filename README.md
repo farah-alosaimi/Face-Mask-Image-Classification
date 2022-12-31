@@ -38,4 +38,6 @@ The structure of the convolutional neural network model
 #Evalution
 classification report showing the main classification metrics/ accuracy .. ect
 
+<img width="401" alt="image" src="https://user-images.githubusercontent.com/87046282/210136910-f162a97d-4ba7-49a0-893d-8ff3e81080b5.png">
+
 
