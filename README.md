@@ -15,4 +15,4 @@ The image processing phase now starts, using the ImageDataGenerator library. Wit
 
 After applying image processing to all the images, executed by the flow_from_directory() function, which takes the path to a directory & generates augmented data. This function will resize the images to 95 x 95, batch size is set to 15, colour mode of the images goes to RGB, which means the pictures stay colourful, class mode is categorical, and we need to shuffle the data in order to avoid pattern cheating.
 
-image
+<img width="455" alt="image" src="https://user-images.githubusercontent.com/87046282/210136673-ac122fb9-4ca6-46fd-a225-b2a7d723fcd0.png">
